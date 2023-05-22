@@ -5,14 +5,11 @@ using System.Web;
 
 namespace WebApi.Models
 {
-    public class Asignacion
+    public class Curso
     {
-        public int id_asignacion { get; set; }
-        public string carnet { get; set; }
         public int id_curso { get; set; }
-        public string seccion { get; set; }
-        public DateTime fecha_realizacion { get; set; }
+        public string nombre { get; set; }
         public string semestre { get; set; }
-        public string anho { get; set; }
+        public string valor_creditos { get; set; }
     }
 }
