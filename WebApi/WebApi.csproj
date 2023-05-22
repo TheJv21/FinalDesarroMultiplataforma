@@ -87,18 +87,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="api.html" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\UsuarioController.cs" />
+    <Compile Include="Controllers\AsignacionController.cs" />
     <Compile Include="Data\Conexion.cs" />
-    <Compile Include="Data\UsuarioData.cs" />
+    <Compile Include="Data\AsignacionData.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Usuario.cs" />
+    <Compile Include="Models\Asignacion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
