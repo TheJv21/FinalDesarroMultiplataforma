@@ -93,12 +93,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\EstudianteController.cs" />
     <Compile Include="Controllers\AsignacionController.cs" />
+    <Compile Include="Data\EstudianteData.cs" />
     <Compile Include="Data\Conexion.cs" />
     <Compile Include="Data\AsignacionData.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Estudiante.cs" />
     <Compile Include="Models\Asignacion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
